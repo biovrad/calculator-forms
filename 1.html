@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body>
+
+  <table bordercolor="black" border="1" width="100%">
+    <tr align="left" valign="baseline">
+      <td valign="bottom" width="100">
+        <p>материал<br />
+         <input type="radio" checked="checked" name="mat" value="0">кресан<br />
+         <input type="radio" name="mat" value="0">трикотаж<br />
+         <input type="radio" name="mat" value="50">гепюр<br />
+         <input type="radio" name="mat" value="100">сетка<br />
+        </p>
+      </td>
+      <td width="100">
+        <p>длинна<br />
+        <input type="radio" checked="checked" name="dlinna" value="200">длинное <br />
+        <input type="radio" name="dlinna" value="100">средние <br />
+        <input type="radio" name="dlinna" value="0">короткое<br />
+       </p>
+      </td>
+      <td width="100">
+        <p>спина<br />
+          <input type="radio" checked="checked" name="spina" value="0">открытая<br />
+          <input type="radio" name="spina" value="20">закрытая<br />
+        </p>
+      </td>
+      <td width="100">
+        <p>рукава<br />
+          <input type="radio" checked="checked" name="rukava" value="20">длинные<br />
+          <input type="radio" name="rukava" value="15">средние<br />
+          <input type="radio" name="rukava" value="0">нет рукавов<br />
+        </p>
+      </td>
+    </tr>
+    <tr align="left" valign="baseline">
+      <td>
+        <p>камни<br />
+        клеевые (в пачке 1144шт)<br />
+        кол-во штук -<input type="text" name="kamni_kol" size="3" value="0" onfocus="if (this.value == '0') {this.value = '';}" onblur="if (this.value == '') {this.value = '0';}"><br /> <br />
+        пришивные шт -<input type="text" name="kamni_prichivnie_kol" size="3" value="0" onfocus="if (this.value == '0') {this.value = '';}" onblur="if (this.value == '') {this.value = '0';}"></p>
+      </td>
+      <td>
+        <p>веревки<br />
+          <input type="radio" checked="checked" name="verevki" value="0">нет<br />
+          <input type="radio" name="verevki" value="150">юбка<br />
+          <input type="radio" name="verevki" value="150">верх<br />
+          <input type="radio" name="verevki" value="300">все платье<br />
+        </p>
+      </td>
+      <td>  
+        <p>аппликации из кружев<br />
+          <input type="radio" checked="checked" name="aplikatsii" value="0">нет<br />
+          <input type="radio" name="aplikatsii" value="50">юбка <br />
+          <input type="radio" name="aplikatsii" value="30">лиф<br />
+          <input type="radio" name="aplikatsii" value="40">купальник<br />
+          <input type="radio" name="aplikatsii" value="50">все платье<br />
+        </p>
+      </td>
+      <td>
+        <p>
+        паетки шт:<input type="text" name="paetki_kol" size="3" value="0" onfocus="if (this.value == '0') {this.value = '';}" onblur="if (this.value == '') {this.value = '0';}"><br /><br />                 
+        стеклярус шт:<input type="text" name="steklarus_kol" size="3" value="0" onfocus="if (this.value == '0') {this.value = '';}" onblur="if (this.value == '') {this.value = '0';}"><br /><br />        
+        жемчуг шт:<input type="text" name="gemchug_kol" size="3"value="0" onfocus="if (this.value == '0') {this.value = '';}" onblur="if (this.value == '') {this.value = '0';}"></p>
+       </td>
+    </tr>
+  </table>
+</body>
+</html>
